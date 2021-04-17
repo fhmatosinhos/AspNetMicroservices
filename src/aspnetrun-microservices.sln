@@ -37,9 +37,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "Buildi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{3982707B-ED87-44C7-ACD1-2A77C518B691}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGw", "ApiGateways\OcelotApiGw\OcelotApiGw.csproj", "{3B6C6305-CDF5-43BF-A02B-D8CDFDAFD635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGw", "ApiGateways\OcelotApiGw\OcelotApiGw.csproj", "{3B6C6305-CDF5-43BF-A02B-D8CDFDAFD635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiGateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{12CE225E-FB35-4580-B03E-332D7CE49F39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Aggregator", "ApiGateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{12CE225E-FB35-4580-B03E-332D7CE49F39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecureResource", "SecureResource", "{1D9AE6F6-3D46-405B-ABF7-CAF2B92AADA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "SecureResource\IdentityServer\IdentityServer.csproj", "{7049FDE3-0F4F-404B-BDE1-108004D3C666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{96DEA378-C0F2-480F-9C19-ACF1DF618DC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetRunBasics", "WebApps\AspnetRunBasics\AspnetRunBasics.csproj", "{D3A77FB0-5DAF-48A4-850A-50E3C15124A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +103,14 @@ Global
 		{12CE225E-FB35-4580-B03E-332D7CE49F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12CE225E-FB35-4580-B03E-332D7CE49F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12CE225E-FB35-4580-B03E-332D7CE49F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7049FDE3-0F4F-404B-BDE1-108004D3C666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7049FDE3-0F4F-404B-BDE1-108004D3C666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7049FDE3-0F4F-404B-BDE1-108004D3C666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7049FDE3-0F4F-404B-BDE1-108004D3C666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A77FB0-5DAF-48A4-850A-50E3C15124A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A77FB0-5DAF-48A4-850A-50E3C15124A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A77FB0-5DAF-48A4-850A-50E3C15124A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A77FB0-5DAF-48A4-850A-50E3C15124A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +131,8 @@ Global
 		{31419E91-68EF-43F6-A2BF-FD0199924EFA} = {F2444357-6F7D-4863-876A-ACE015E7E247}
 		{3B6C6305-CDF5-43BF-A02B-D8CDFDAFD635} = {3982707B-ED87-44C7-ACD1-2A77C518B691}
 		{12CE225E-FB35-4580-B03E-332D7CE49F39} = {3982707B-ED87-44C7-ACD1-2A77C518B691}
+		{7049FDE3-0F4F-404B-BDE1-108004D3C666} = {1D9AE6F6-3D46-405B-ABF7-CAF2B92AADA5}
+		{D3A77FB0-5DAF-48A4-850A-50E3C15124A6} = {96DEA378-C0F2-480F-9C19-ACF1DF618DC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E70DAE2E-A05A-48F0-A14B-453AB359A2AA}
