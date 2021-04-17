@@ -9,7 +9,7 @@ namespace Ordering.Infrastructure.Persistence
     public class OrderContextSeed
     {
         public static async Task SeedAsync(OrderContext orderContext, ILogger<OrderContextSeed> logger)
-        {
+        {            
             if (!orderContext.Orders.Any())
             {
                 orderContext.Orders.AddRange(GetPreconfiguredOrders());
@@ -22,9 +22,7 @@ namespace Ordering.Infrastructure.Persistence
         {
             return new List<Order>
             {
-                new Order() {UserName = "swn", FirstName = "Mehmet", LastName = "Ozkaya", 
-                            EmailAddress = "ezozkme@gmail.com", AddressLine = "Bahcelievler", 
-                            Country = "Turkey", TotalPrice = 350 }
+                new Order() {UserName = "swn", FirstName = "Mehmet", LastName = "Ozkaya", EmailAddress = "ezozkme@gmail.com", AddressLine = "Bahcelievler", Country = "Turkey", TotalPrice = 350 }
             };
         }
     }

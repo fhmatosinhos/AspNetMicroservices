@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
+﻿namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
 {
     public class OrdersVm
     {
@@ -27,6 +21,5 @@ namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
         public string Expiration { get; set; }
         public string CVV { get; set; }
         public int PaymentMethod { get; set; }
-
     }
 }

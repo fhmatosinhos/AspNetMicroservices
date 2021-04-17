@@ -1,4 +1,8 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
 namespace Basket.API.Entities
 {
     public class BasketCheckout
@@ -21,6 +25,5 @@ namespace Basket.API.Entities
         public string Expiration { get; set; }
         public string CVV { get; set; }
         public int PaymentMethod { get; set; }
-
     }
 }

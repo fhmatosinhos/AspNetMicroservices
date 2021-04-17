@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace Ordering.Domain.Common
@@ -10,8 +9,10 @@ namespace Ordering.Domain.Common
         protected static bool EqualOperator(ValueObject left, ValueObject right)
         {
             if (left is null ^ right is null)
-               return false;
-           
+            {
+                return false;
+            }
+
             return left?.Equals(right) != false;
         }
 
@@ -25,8 +26,10 @@ namespace Ordering.Domain.Common
         public override bool Equals(object obj)
         {
             if (obj == null || obj.GetType() != GetType())
-               return false;
-            
+            {
+                return false;
+            }
+
             var other = (ValueObject)obj;
             return GetEqualityComponents().SequenceEqual(other.GetEqualityComponents());
         }

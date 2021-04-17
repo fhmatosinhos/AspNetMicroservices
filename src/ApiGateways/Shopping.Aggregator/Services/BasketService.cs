@@ -1,8 +1,6 @@
 ﻿using Shopping.Aggregator.Extensions;
 using Shopping.Aggregator.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -21,7 +19,6 @@ namespace Shopping.Aggregator.Services
         {
             var response = await _client.GetAsync($"/api/v1/Basket/{userName}");
             return await response.ReadContentAs<BasketModel>();
-        }
-               
+        }        
     }
 }

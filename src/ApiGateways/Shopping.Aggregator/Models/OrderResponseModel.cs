@@ -1,5 +1,4 @@
-﻿
-namespace Shopping.Aggregator.Models
+﻿namespace Shopping.Aggregator.Models
 {
     public class OrderResponseModel
     {
